@@ -1,0 +1,61 @@
+#floors {
+    #nav-tab {
+
+        .nav-link {
+            font-size: 0.8rem;        
+            color: $color-darkest;
+        }
+
+        .active {
+            background-color: $color-primary;
+            color: $color-lightest;
+        }
+
+        .nav-link.active:hover {
+            background-color: $color-primary-dark;
+            color: $color-lightest;
+            transition-duration: 0.3s;
+        }
+
+        .nav-link:hover {
+            background-color: $color-light;
+            transition-duration: 0.3s;
+        }
+                
+    }
+
+
+    .card {     
+        margin-top: 30px;   
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0px 3px 6px rgba(141, 133, 127, 0.349);
+        
+
+        .card-body {
+
+            .card-footer {
+                background-color: $color-lightest !important;
+                padding: 0;
+                padding-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p {
+                    margin: 0;
+                }
+
+                .price {
+                    color: $color-secondary;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-link {
+        font-family: 1rem !important;
+    }
+}

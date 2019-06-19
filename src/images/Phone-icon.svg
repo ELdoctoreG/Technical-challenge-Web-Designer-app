@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="12" height="12" transform="translate(118 135)" fill="#ff923a"/>
+    </clipPath>
+  </defs>
+  <g id="Phone-icon" transform="translate(-118 -135)" clip-path="url(#clip-path)">
+    <path id="phone002_-_E106" data-name="phone002 - E106" d="M-6.726-41.58c-.424.2-.9.424-1.325.613-.388-.712-.757-1.433-1.108-2.19-.3-.649-.568-1.262-.8-1.847.415-.2.91-.424,1.352-.631l-.865-3.208a1.894,1.894,0,0,0-1.487.045,1.944,1.944,0,0,0-1.09,1.992l.018.1A15.807,15.807,0,0,0-10.691-42.2,16.36,16.36,0,0,0-8.1-38.264l.063.063a1.937,1.937,0,0,0,2.226.451,1.9,1.9,0,0,0,1-1.108Z" transform="translate(133 184.5)" fill="#ff923a"/>
+  </g>
+</svg>

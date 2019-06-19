@@ -1,0 +1,111 @@
+
+
+.navbar {
+    background-color: #ffffff !important;
+    opacity: 1;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    padding: 0;
+    padding-left: 10px;
+    color: $color-darkest;
+    
+    .navbar-text {
+        padding: 0;
+        margin: 6px 0;
+        .nav-title {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16px;
+            margin: 0;
+            margin-left: 2px;
+            color:  $color-darkest;
+        }
+        .nav-street {
+            font-size: 10px;
+            line-height: 16px;
+            color: $color-secondary;
+            letter-spacing: 0.5px;
+            margin: 0;
+        }
+        .nav-phone {
+            font-size: 10px;
+            line-height: 16px;
+            color: $color-secondary;
+            letter-spacing: 0.5px;
+            margin: 0;
+        }
+
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: $color-primary;
+        height: 60px;
+        border-radius: 0;
+        border: none;
+
+    }
+
+    #navbarCollapse {
+        text-align: center;
+    }
+
+    .nav-link {
+        color: $color-darkest !important;
+        opacity: 0.6;
+        border-bottom: 1px solid transparent;
+        transition-duration: 0.3s;
+    }
+
+    .nav-link:hover {
+        opacity: 1;
+        border-bottom: 1px solid $color-primary;
+        transition-duration: 0.3s;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar {
+        .navbar-text {
+            .nav-title {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 19px;
+                letter-spacing: 1px;
+                margin: 0;
+                margin-left: 2px;
+                color:  $color-darkest;
+            }
+            .nav-street {
+                font-size: 12px;
+                line-height: 16px;
+                color: $color-secondary;
+                letter-spacing: 0.8px;
+                margin: 0;
+            }
+            .nav-phone {
+                font-size: 12px;
+                line-height: 16px;
+                color: $color-secondary;
+                letter-spacing: 0.8px;
+                margin: 0;
+            }
+            
+        }
+
+        .navbar-toggler {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: $color-primary;
+            height: 63px;
+            border-radius: 0;
+            border: none;
+    
+        }
+    }
+    
+}

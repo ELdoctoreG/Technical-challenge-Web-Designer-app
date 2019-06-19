@@ -1,0 +1,167 @@
+// ==========================================================================
+// Colors
+// ==========================================================================
+
+$color-primary: #FF7302;
+$color-primary-dark: #ce5c00;
+$color-secondary: #FF923A;
+
+
+$color-lightest: #FFFFFF;
+$color-lighter: #FFFAF5;
+$color-light: #FFEFE2;
+$color-dark: #E5E4E2;
+$color-darker: #8D857F;
+$color-darkest: #1C0C00;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+// ==========================================================================
+// Typography
+// ==========================================================================
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,700|Montserrat:300,400,700&display=swap');
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.accent-text {
+    color: $color-primary;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    font-family: 'Hind', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+h5 {    
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: $color-darker;
+}
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 49px;
+    }
+    
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 39px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+    
+    h4 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+    }
+    
+    h5 {    
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-darker;
+    }
+}
+// ==========================================================================
+// Buttons
+// ==========================================================================
+
+.btn-primary {
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
+}
+
+.btn-primary:hover {
+    background-color: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+}
+
+
+
+// ==========================================================================
+// Margins
+// ==========================================================================
+
+.m-top-bottom {
+    padding: 70px 0;
+}
+
+@media (min-width: 768px) {
+    .m-top-bottom {
+        padding: 100px 0;
+    }
+}
+

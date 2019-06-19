@@ -1,0 +1,190 @@
+#home {
+    .carousel-indicators {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        background-color: $color-lightest;
+        max-height: 20%;
+        max-width: auto;
+        overflow: hidden;
+        padding: 30px 15px;
+
+        .col {
+            opacity: 0.25;
+        }
+
+        .active {
+            opacity: 1;
+        }
+
+
+    }
+    .carousel {
+        height: 40vh;
+        width: 100vw;
+        position: relative;
+        margin-bottom: 30px;
+
+        .carousel-indicators {
+            padding: 10px;
+
+            .col {
+                padding: 0 5px;
+            }
+        }
+
+        .carousel-inner {
+            height: 100%;
+            width: 100%;
+
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+    .form-zone {
+
+        .row {
+            .home-check-form {
+                h3 {
+                    margin-top: 30px;
+                }
+
+                padding: 10px;
+                background-color: rgba(255, 255, 255, 0.75);
+                border-radius: 2px;
+
+                .form-heading {
+                    margin: 0;
+                }
+
+                .form-subheading {
+                    margin: 0;
+
+                    a:hover {
+                        color: $color-primary-dark;
+                        text-decoration: none;
+                    }
+                }
+
+                input {
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px solid $color-darker;
+                    border-radius: 0;
+                }
+
+                #checkbox {
+                    margin-top: 15px;
+
+                }
+
+                .checkbox-text {
+                    margin-left: 5px;
+                    display: inline;
+                    font-size: 9.6px;
+                    line-height: 9px !important;
+                }
+
+                .btn {
+                    margin-top: 15px;
+                    display: block;
+                }
+            }
+
+        }
+    }
+    
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    #home {
+        .carousel {
+            height: 90vh;
+            width: 100vw;
+            position: relative;
+    
+    
+            .carousel-inner {
+                height: 100%;
+                width: 100%;
+    
+                img {
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+
+        
+
+        
+
+
+        .form-zone {
+            position: absolute;
+            top: 20%;
+            right: 15%;
+            background-color: transparent;
+            z-index: 52;
+    
+            .row {
+                .home-check-form {
+                    h3 {
+                        margin-top: 30px;
+                    }
+    
+                    padding: 10px;
+                    background-color: rgba(255, 255, 255, 0.75);
+                    border-radius: 2px;
+    
+                    .form-heading {
+                        margin: 0;
+                    }
+    
+                    .form-subheading {
+                        margin: 0;
+    
+                        a:hover {
+                            color: $color-primary-dark;
+                            text-decoration: none;
+                        }
+                    }
+    
+                    input {
+                        background: transparent;
+                        border: none;
+                        border-bottom: 1px solid $color-darker;
+                        border-radius: 0;
+                    }
+    
+                    #checkbox {
+                        margin-top: 15px;
+    
+                    }
+    
+                    .checkbox-text {
+                        margin-left: 5px;
+                        display: inline;
+                        font-size: 9.6px;
+                        line-height: 9px !important;
+                    }
+    
+                    .btn {
+                        margin-top: 15px;
+                        display: block;
+                    }
+                }
+    
+            }
+        }
+    }
+
+}
